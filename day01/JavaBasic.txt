@@ -1,0 +1,60 @@
+﻿JVM（Java Virtual Machine）Java虚拟机
+	
+	Java虚拟机的主要功能：执行class字节码文件
+JDK（Java Development Kit）Java开发套件
+JRE（Java Runtime Environment）Java运行时环境
+
+常用DOS命令：
+	dir			展示当前文件夹下的所有文件和文件夹
+	cd [文件夹名]		进入到某一个文件夹中
+	cd ..			代表进入到目录的上一级
+	mkdir [文件夹名]	新建文件夹
+	javac [文件名.java]	编译java文件
+	java [类名]		执行java程序
+
+问题：如何查看当前使用计算机是否安装JDK？	
+ 答 ：运行——输入cmd——在cmd程序中输入指令 java，java -version，javac有JDK输出显示即可。
+	如何呼出运行窗口：1、点击开始菜单的方式；2、按住 Windows键+R
+
+问题：在command程序中输入javac出现 
+	'javac' 不是内部或外部命令，也不是可运行的程序或批处理文件。
+      如何解决？
+ 答 ：参考JavaBasic笔记
+
+问题：什么是环境变量？
+ 答 ：环境变量（environment variables）一般是指在操作系统中用来指定操作系统运行环境的一些参数，如：临时文件夹位置和系统文件夹位置等。
+
+概念：什么是强类型语言？什么是弱类型语言？
+ 答 ：强类型语言就是在定义变量的时候必须指定数据类型，而弱类型语言则没有强制要求。
+
+概念：.java是java的源代码文件。.class是java源代码编译后的文件。
+	由于java的跨平台型，编译后的文件在各个操作系统中的JRE上都能执行。
+
+Task01：编写一个代码：1+2+...+100=?（用notepad记事本写）
+出现的问题：	1、类名没有大写；
+		2、乱用空格；
+		3、数组定义不严谨；
+		4、不会使用tab（制表符），代码段落很乱。
+
+Java程序中的起名问题：遵循驼峰命名法
+			说明						例子
+	类名：每个单词首字母大写				TaskSumCalculate
+	方法名：首单词首字母小写，其余单词首字母大写		main()、getConnection()
+	变量名：首单词首字母小写，其余单词首字母大写		connection、prepareStatement
+		单词间用下划线隔开				con_str、cat_num...
+	常量名：所有字母大写，并且单词间用下划线隔开		PI、MAX、PREPARED_MAX_FIRST
+
+问题：如何打印 "\"？（转义字符）
+ 答 ："\"代表转义字符的标识
+
+概念：通配符：* ? 
+	* ：任意多个
+	？：任意一个
+
+程序经典结构分类：
+	1、顺序：程序依次向下执行
+	2、分支：if、switch、三目运算符
+	3、循环：for、while、do...while、foreach
+用到的其他两个关键字：
+	break：		退出最近的循环
+	continue：	退出本次循环

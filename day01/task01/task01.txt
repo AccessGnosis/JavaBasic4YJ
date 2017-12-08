@@ -1,0 +1,9 @@
+public  class task01{
+    public ststic void main(string [] args){
+      int i;
+      int sum=0;
+      for(i=1;i<=100;i++)
+      sum=sun+i;
+   system.out println(sum);
+}
+}
